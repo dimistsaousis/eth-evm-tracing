@@ -1,2 +1,4 @@
+ # python virtual env
+.eth-evm-tracing-env
 .env
 .vscode

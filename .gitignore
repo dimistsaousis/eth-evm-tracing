@@ -2,3 +2,4 @@
 .eth-evm-tracing-env
 .env
 .vscode
+revm_playground/target

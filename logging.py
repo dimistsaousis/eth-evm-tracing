@@ -1,6 +1,4 @@
 import logging
-import asyncio
-from datetime import datetime
 from dotenv import load_dotenv
 
 
@@ -56,3 +54,8 @@ def setup_logger():
     logger.addHandler(handler)
     logger.setLevel(LogLevels.ERROR)
     logging.getLogger("revm_playground").setLevel(LogLevels.INFO)
+
+
+def setup():
+    load_dotenv()
+    setup_logger()

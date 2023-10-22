@@ -36,6 +36,7 @@ parsimonious==0.9.0
 pathspec==0.11.2
 platformdirs==3.10.0
 protobuf==4.24.4
+py-solc-x==1.1.1
 pycodestyle==2.11.0
 pycryptodome==3.19.0
 pyflakes==3.1.0
@@ -45,6 +46,7 @@ regex==2023.10.3
 requests==2.31.0
 rlp==3.0.0
 rpds-py==0.10.6
+semantic-version==2.10.0
 six @ file:///System/Volumes/Data/SWE/Apps/DT/BuildRoots/BuildRoot11/ActiveBuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-141/six-1.15.0-py2.py3-none-any.whl
 tomli==2.0.1
 toolz==0.12.0

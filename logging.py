@@ -1,5 +1,4 @@
 import logging
-from dotenv import load_dotenv
 
 
 class LogColors:
@@ -54,8 +53,3 @@ def setup_logger():
     logger.addHandler(handler)
     logger.setLevel(LogLevels.ERROR)
     logging.getLogger("revm_playground").setLevel(LogLevels.INFO)
-
-
-def setup():
-    load_dotenv()
-    setup_logger()
